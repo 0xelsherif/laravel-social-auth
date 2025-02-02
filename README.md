@@ -6,6 +6,7 @@
 </p>
 
 # Laravel Social Authentication with Google & Facebook
+[![Tests](https://github.com/0xelsherif/laravel-social-auth/actions/workflows/laravel-test.yml/badge.svg)](https://github.com/0xelsherif/laravel-social-auth/actions/workflows/laravel-test.yml)
 
 This project implements **social login authentication** using **Laravel Socialite**, allowing users to log in with **Google** and **Facebook**. The authentication system is designed with **security, scalability, and best practices** in mind.
 
