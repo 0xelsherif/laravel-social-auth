@@ -1,3 +1,10 @@
+<p align="center">
+<a href="https://github.com/0xelsherif/laravel-social-auth/"><img src="https://img.shields.io/github/stars/0xelsherif/laravel-social-auth.svg?style=social&label=Star" alt="GitHub Stars"></a>
+<a href="https://github.com/0xelsherif/laravel-social-auth/"><img src="https://img.shields.io/github/forks/0xelsherif/laravel-social-auth.svg?style=social&label=Fork" alt="GitHub Forks"></a>
+<a href="https://github.com/0xelsherif/laravel-social-auth/issues"><img src="https://img.shields.io/github/issues/0xelsherif/laravel-social-auth?style=social&logo=github" alt="GitHub Issues"></a>
+
+</p>
+
 # Laravel Social Authentication with Google & Facebook
 
 This project implements **social login authentication** using **Laravel Socialite**, allowing users to log in with **Google** and **Facebook**. The authentication system is designed with **security, scalability, and best practices** in mind.
@@ -196,3 +203,19 @@ Feel free to contribute! Fork the repo, create a new branch, and submit a PR:
 ## 📩 Contact
 
 For any issues or inquiries, reach out via [GitHub Issues](https://github.com/0xelsherif/laravel-social-auth/issues).
+
+## Follow Me
+
+Follow me on GitHub to stay updated with my latest projects and contributions:
+
+[![Follow me on GitHub](https://img.shields.io/github/followers/0xelsherif?label=Follow&style=social)](https://github.com/0xelsherif)
+<a href="https://twitter.com/intent/follow?screen_name=0xelsherif"><img alt="Follow @0xelsherif on Twitter" src="https://img.shields.io/twitter/follow/0xelsherif"></a>
+[![Connect with @0xelsherif on LinkedIn](https://img.shields.io/badge/LinkedIn--blue?style=social&logo=linkedin)](https://www.linkedin.com/in/0xelsherif)
+[![Follow @0xelsherif on Medium](https://img.shields.io/badge/Medium--black?style=social&logo=medium)](https://medium.com/@0xelsherif)
+[![Follow @0xelsherif on Codepen](https://img.shields.io/badge/Codepen--black?style=social&logo=codepen)](https://codepen.io/0xelsherif)
+
+### Buy Me a Coffee ☕
+
+If you'd like to support the development of this project further or express your appreciation with a small gesture, consider buying me a coffee! Your support helps keep me fueled for more coding sessions. Thank you for your support! 
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/0xelsherif)
