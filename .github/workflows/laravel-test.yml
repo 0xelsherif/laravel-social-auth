@@ -1,0 +1,33 @@
+name: Run Laravel Tests
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  laravel-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: 🛠 Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: 8.1
+          extensions: mbstring, pdo, pdo_mysql, bcmath
+          coverage: none
+
+      - name: 📦 Install Dependencies
+        run: composer install --no-progress --prefer-dist --optimize-autoloader
+
+      - name: 🔑 Generate Application Key
+        run: php artisan key:generate
+
+      - name: 🛠 Run Tests
+        run: php artisan test
