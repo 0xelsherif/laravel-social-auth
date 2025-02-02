@@ -1,5 +1,4 @@
 <p align="center">
-<a href="https://github.com/0xelsherif/laravel-social-auth/"><img src="https://img.shields.io/github/repo-size/0xelsherif/laravel-social-auth?style=social&logo=github"></a>
 <a href="https://github.com/0xelsherif/laravel-social-auth/"><img src="https://img.shields.io/github/stars/0xelsherif/laravel-social-auth.svg?style=social&label=Star" alt="GitHub Stars"></a>
 <a href="https://github.com/0xelsherif/laravel-social-auth/"><img src="https://img.shields.io/github/forks/0xelsherif/laravel-social-auth.svg?style=social&label=Fork" alt="GitHub Forks"></a>
 <a href="https://github.com/0xelsherif/laravel-social-auth/discussions"><img src="https://img.shields.io/github/discussions/0xelsherif/laravel-social-auth?style=social&logo=github" alt="GitHub Discussions"></a>
