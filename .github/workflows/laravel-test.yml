@@ -63,7 +63,7 @@ jobs:
         run: npm install
 
       - name: ⚡ Build Frontend Assets
-        run: npm run dev
+        run: npm run build # Use build instead of dev for production
 
       - name: 🛠 Setup Environment File
         run: cp .env.example .env
