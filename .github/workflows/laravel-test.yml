@@ -43,8 +43,27 @@ jobs:
           key: composer-${{ runner.os }}-${{ hashFiles('**/composer.lock') }}
           restore-keys: composer-${{ runner.os }}-
 
-      - name: 📦 Install Dependencies
+      - name: 📦 Install PHP Dependencies
         run: composer install --no-progress --prefer-dist --optimize-autoloader
+
+      - name: ⚡ Cache Node Modules
+        uses: actions/cache@v3
+        with:
+          path: node_modules
+          key: npm-${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: npm-${{ runner.os }}-
+
+      - name: 🛠 Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: npm
+
+      - name: 📦 Install NPM Dependencies
+        run: npm install
+
+      - name: ⚡ Build Frontend Assets
+        run: npm run dev
 
       - name: 🛠 Setup Environment File
         run: cp .env.example .env
